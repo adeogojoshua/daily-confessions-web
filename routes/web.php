@@ -29,6 +29,7 @@ Route::get('/change-password', [LoginController::class, 'changePassword'])->name
 Route::post('/change-password', [LoginController::class, 'processChangePassword'])->name('change-password');
 
 
+Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 Route::post('logout', [LoginController::class, 'logout'])->name('logout');
 
 
