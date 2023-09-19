@@ -8,7 +8,7 @@ use App\Models\ConfessionCategory;
 class CategoryApiController extends BaseAPIController
 {
     public function index(){
-        $categories = ConfessionCategory::whereStatus('Active')->latest()->get(['id', 'title']);
+        $categories = ConfessionCategory::whereStatus('Active')->orderBy('title', 'ASC')->get(['id', 'title']);
 
         return $this->success_response($categories);
     }
