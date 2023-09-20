@@ -12,8 +12,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <table class="table table-bordered table-striped">
+                <div class="card-body table-responsive">
+                    <table class="mb-3 table table-bordered table-striped">
                         <thead>
                             <tr>
                                 <th scope="col">Category</th>

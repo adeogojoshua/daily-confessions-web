@@ -14,7 +14,7 @@ class ConfessionCategoryController extends Controller
      */
     public function index()
     {
-        $categories = ConfessionCategory::latest()->paginate(20);
+        $categories = ConfessionCategory::latest()->paginate(30);
 
         return view('category/index', compact('categories'));
     }
