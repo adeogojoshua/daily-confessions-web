@@ -36,7 +36,7 @@
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                                         <div class="card-content">
                                             <h5 class="font-15"> Total Confessions</h5>
-                                            <h2 class="mb-3 font-18">{{ number_format($total_categories) }}</h2>
+                                            <h2 class="mb-3 font-18">{{ number_format($total_confessions) }}</h2>
                                             {{-- <p class="mb-0"><span class="col-orange">09%</span> Decrease</p> --}}
                                         </div>
                                     </div>
